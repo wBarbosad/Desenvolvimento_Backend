@@ -18,4 +18,10 @@ public class CosmeticoService {
     public Cosmetico getProduto(int id){
         return bancoDeDados.getCosmeticoId(id);
     }
+    public String adicionarCosmetico(Cosmetico cosmetico){
+        return bancoDeDados.adicionarCosmetico(cosmetico);
+    }
+    public String removerCosmetico(int id){
+        return bancoDeDados.removerCosmetico(id);
+    }
 }
