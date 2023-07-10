@@ -24,5 +24,11 @@ public class CosmeticoController {
         return cosmeticoService.getProduto(id);
     }
     @PostMapping
-    public
+    public String addCosmetico(@RequestBody Cosmetico cosmetico){
+        return cosmeticoService.adicionarCosmetico(cosmetico);
+    }
+    @DeleteMapping("/{id}")
+    public String deleteCosmetico(@PathVariable int id){
+        return cosmeticoService.removerCosmetico(id);
+    }
 }
