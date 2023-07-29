@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e1047a8-c8e4-42b1-aca0-2621dcd8d441" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Listas/Lista_3/servico_de_delivery" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Listas/Lista_3/servico_de_delivery" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Listas/Lista_4/cosmeticoAvon/cosmeticoAvon/src/main/java/br/com/avon/cosmeticoAvon/controllers/CosmeticoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Listas/Lista_4/cosmeticoAvon/cosmeticoAvon/src/main/java/br/com/avon/cosmeticoAvon/controllers/CosmeticoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Listas/Lista_4/salao/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Listas/Lista_4/salao/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SyxgOEHKID7llKSL3qKpKKxMXT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/WESLEY/OneDrive/Desktop/Desenvolvimento_Backend/Aulas/Aula06/loja-games-back"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e1047a8-c8e4-42b1-aca0-2621dcd8d441" name="Changes" comment="" />
+      <created>1690132732555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690132732555</updated>
+    </task>
+    <servers />
+  </component>
+</project>
