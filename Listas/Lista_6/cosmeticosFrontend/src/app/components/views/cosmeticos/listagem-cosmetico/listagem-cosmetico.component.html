@@ -1,0 +1,11 @@
+
+<div class="conteiner d-flex justify-content-center m-5">
+  <div class="row m-2" *ngFor="let cosmetico of cosmeticos">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">{{ cosmetico.nome }}</h5>
+        <a href="#" class="btn btn-secondary">{{ cosmetico.preco }}</a>
+      </div>
+    </div>
+  </div>
+</div>
