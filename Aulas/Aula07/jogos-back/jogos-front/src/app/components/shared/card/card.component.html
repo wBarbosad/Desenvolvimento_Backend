@@ -1,0 +1,12 @@
+
+<div class="card" style="width: 18rem;">
+  <img src="{{ jogo.imagem }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <div class="d-flex justify-content-between">
+      <h5 class="card-title">Card title</h5>
+      <fa-icon class="favoritar" (click)="favoritarJogo()" [class.estaFavoritado]="jogo.esta_favoritado" [icon]="faHeart"></fa-icon>
+    </div>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>

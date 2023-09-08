@@ -1,0 +1,89 @@
+Conceitos:
+
+Banco, tabela e registro;
+
+Banco = Dados armazenados referente a aplicação. Junção de todas as tabelas;
+
+Tabelas = Gerencia dados de uma entidade, p. exemplo, Heroi, inimigo; É uma classe
+
+Registros: Uma linha refere-se a um registro; semelhante a um objeto, 1 registro = 1 herói;
+
+
+Banco de dados consiste em: 
+
+Base de dados = Dados;
+Sistema de Gerenciamento de B. dados e Linguagem de exploração
+
+
+=============================================
+
+*Introdução ao SQL*
+
+Senha do banco: root
+
+CRIAR BANCO DE DADOS: create database "nome";
+
+
+create table heroi( ===> Criando uma tabela;
+	id int,
+    nome varchar(30),
+    ataque int,
+    defesa int,
+    pontos_vida int
+);
+
+
+use jogo; estamos dizendo qual é o banco de dados que estamos usando
+
+
+describe nome-da-tabela; = vejo a descrição da tabela
+
+colocar um heroi na tabela ==> insert into nome-da-tabela (dados que vou inserir)
+
+values('1', '-', .... )
+
+
+select = quando quero buscar algo 
+
+select * = busco tudo;
+
+select * from heroi = seleciona/mostra todos os registros da tabela heroi
+
+p/ excluir um registro == delete from heroi;
+
+delete from heroi where id=4; ===> Com o where excluo um dado específico
+
+
+================
+
+
+Chave primária para uma tabela = Que somente eu tenho; identificador único; *Uma tabela tem apenas uma chave primária*
+
+
+posso escolher um campo na tabela e numa propriedade e colocar primary key deixando id, p. exemplo, como uma chave primária;
+
+Quando já existe a tabela, uso a palavra reservada: 
+
+alter table heroi add primary key(id) entre ( ) coloco o campo que quero usar como primary key
+
+
+==================
+
+Relacionamento entre tabelas;
+
+
+chave estrangeira 
+
+    foreign key (id_heroi) references heroi(id) ==> id_heroi = id do treinador do pokemon e ele faz referencia ao heroi(campo id) 
+
+o campo id_heroi faz referencia a tabela heroi do campo id;
+
+
+
+
+=====================================
+
+Intergridade referencial;
+
+
+alterar um registro = update nome-da-tabela set campo = "...." where crm = "15245255";

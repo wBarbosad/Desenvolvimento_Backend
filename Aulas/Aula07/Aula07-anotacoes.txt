@@ -1,0 +1,20 @@
+Nova anotation que vem do json; json pacote que transforma objeto em json e json em java;
+
+*** @JsonProperty() Serve p/ dar nome diferente a um json em comparação ao nome do atributo; 
+
+Visivel no post, o atributo/propriedade está "estaFavoritado": false enquanto no post está: "esta_Favoritado": false
+
+
+mvn package = roda o programa pelo cmd, preciso ir na pasta final
+
+cd target
+dir
+
+rodar o artefato: 
+
+java -jar (nome do jar = jogos-0 .... jar) 
+
+
+
+log rocket font awesome angular: https://blog.logrocket.com/how-to-add-font-awesome-angular-project/
+
