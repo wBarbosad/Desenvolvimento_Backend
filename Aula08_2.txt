@@ -1,0 +1,92 @@
+
+Memoria RAM e HD:
+
+ORM: Mapeamento de objeto relacional
+
+
+JPA: É uma especificação contendo inumeras interfaces; contendo métodos obrigatórios para relacionar com o banco de dados.
+Hibernate: Implementação.
+
+
+
+spring boot essentials - curso no youtuve: DevDojo;
+
+incluiu 2 dependências novas: 
+
+spring-boot-starter-data-jpa (dependencia do jpa) e mysql-connector-j (ou do banco especifico)
+
+
+
+
+Após a inclusão das dependencias, precisamos modificar o resources colocando uma string de conexão com o banco de dados
+
+01:10
+
+Alterar a model colocando @Entity
+
+===============
+
+
+Incluir nas dependências o framework para criar tabelas e fazer c0municação com o mysql
+
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+</dependency>
+
+Clicar p/ atualizar o maven na barra lateral.
+
+
+Conector do Mysql: 
+
+
+P/ conseguir usar o hivernate precisamos colocar o jpa e o banco de dados que vamos usar;
+
+<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+</dependency>
+
+
+
+
+Resources > new > add > file: application.properties
+
+
+em application.properties criamos a string de conexão com o banco de dados;
+
+spring.datasource.url= jdbc:mysql://localhost/db_jogos?createDatabaseIfNotExist=true
+
+O ? é um Quarry Paranm
+
+<db_jogos> é o nome do banco
+
+//jbbc i ndica o banco de dados que vamos usar
+
+
+spring.datasource.username = root //Nome do meu banco de dados;
+spring.datasource.password = root //senha do meu banco de dados;
+spring.jpa.hibernate.ddl-auto = update //Verifica se existe o banco de dados, se existe ele não faz nada, caso contrário ele cria;
+
+Após isso, builda o programa.
+
+
+==========
+
+
+Queremos fazer com que a model jogo seja uma tabela; 
+
+Colocamos sempre uma anotation @Entity (acima da classe) que vem do javax.persistence.Entity
+
+Marcamos o campo que será a chave primária com a anotation @Id (Identificador único)
+
+Gerador de ID em ordem:     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+Campos que não podem ser nulos colocamos a anotation @NotNull
+
+
+===================
+
+Repositoy
+
+extends JpaRepository<Qual a classe que ela mapeia "Jogo", Tipo do ID "integer"> ela 

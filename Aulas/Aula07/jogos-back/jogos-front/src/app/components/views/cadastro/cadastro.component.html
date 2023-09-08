@@ -1,0 +1,9 @@
+<p>cadastro works!</p>
+
+<form action="/home">
+  <input type="number" name="primeiro-campo" id="id" placeholder="Insira o id do jogo" [(ngModel)]="jogo.id">
+  <input type="text" name="segundo-campo" id="imagem" placeholder="Insira a imagem do seu jogo" [(ngModel)]="jogo.imagem">
+  <input type="text" name="" id="">
+
+  <button (click)="saveJogo()">enviar</button>
+</form>
